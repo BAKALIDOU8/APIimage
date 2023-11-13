@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Canopee';
+    src: url('Canopee.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Canopee;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #E4DDD3;
+}
+
+h2 {
+    font-size: 350%;
+}
+
+.search_bar {
+    margin: 10px 0 20px 0;
+    display: flex;
+}
+
+.search_bar input {
+    padding: 10px;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid #999;
+    width: 250px;
+    outline: none;
+}
+
+.search_bar button {
+    padding: 0 20px;
+    border: 1px solid #000;
+    border-radius: 0 6px 6px 0;
+    background-color: #000;
+    color: #FFF;
+}
+
+.thumbnail {
+    padding: 10px;
+}
+
+.thumbnail img {
+    border-radius: 6px;
+}
